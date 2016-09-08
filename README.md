@@ -10,7 +10,7 @@ The intention is for such output to be used by the shell's tab completion logic,
 by static analyzers of shell scripts, and so on.
 
 We envision that a package manager would install
-a `/usr/share/rsync/rsync.grammar` file alongside the `/usr/bin/rsync` binary,
+a `/usr/share/cli-grammar/rsync.grammar` file alongside the `/usr/bin/rsync` binary,
 and shells would parse that file instead of hardcoding the list of options
 `rsync` takes in their completion functions (such as
 [`/usr/share/bash-completion/completions/rsync`][bash:rsync] or
